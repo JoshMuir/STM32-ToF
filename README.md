@@ -1,7 +1,7 @@
 # STM32-ToF
 
 ## Overview
-This project combines an STM32F114 microcontroller with a VL53L0X Time-of-Flight (ToF) sensor for distance measurement applications. It serves primarily as a learning platform for STM32 development, exploring the STM32 HAL, peripheral interfaces, and embedded systems programming concepts. The ultimate goal is to create a simple environment mapping system.
+This project combines an STM32F103CBT6 microcontroller with a VL53L0X Time-of-Flight (ToF) sensor for distance measurement applications. It serves primarily as a learning platform for STM32 development, exploring the STM32 HAL, peripheral interfaces, and embedded systems programming concepts. The ultimate goal is to create a simple environment mapping system.
 
 ## Hardware
 - STM32F114 microcontroller
