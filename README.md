@@ -29,3 +29,29 @@ This project combines an STM32F103CBT6 microcontroller with a VL53L0X Time-of-Fl
 - Initial project setup
 
 
+## TODO: 
+
+1. Setup STM32CubeMX Environment
+2. Configure STM32 pinout, setup clocks and required peripherals
+3. Generate skeleton code 
+4.  
+
+
+## STM32 Config 
+
+   ### Clocks 
+    The STM32 runs at a maximum 72MHz
+
+   ### Pinout
+
+
+   ### Peripherals
+    We will need to setup the I2C interface for communication to the ToF sensor, and a UART interface for debugging   
+
+#### I2C Setup 
+According to the datasheet, the VL53L0x can communicate with fast mode i2c at 400kHz. 
+We will configure our STM to use the fast mode interface at 400kHz, but may adjust if there are communication issues in the future. 
+
+
+   ### Debug mode 
+
