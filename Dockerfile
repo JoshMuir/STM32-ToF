@@ -8,6 +8,7 @@ RUN apt-get update -y && \
     wget \
     openjdk-21-jre \
     libgbm1 \
+    cmake \
     && apt-get clean
 
 RUN mkdir st && cd st && \
