@@ -1,5 +1,9 @@
 # Project Resources
 
+## STM32 Dev Board 
+
+https://github.com/WeActStudio/WeActStudio.BluePill-Plus-CH32
+
 ## VL53L0X Time-of-Flight Sensor
 
 ### Official Documentation
