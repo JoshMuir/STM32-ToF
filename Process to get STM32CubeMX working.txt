@@ -1,0 +1,19 @@
+Process to get STM32CubeMX working in docker and VSCode. 
+
+https://github.com/ThundeRatz/stm32cubemx_docker
+
+> Download DockerFile and place in the project root directory 
+
+> Build the dockerfile with ```docker build -t stm32cubemx -f```
+
+> Run the docker image with ```docker run --rm -it -v /path/to/your/project:/workspace stm32cubemxdocker
+
+> Attach VSCode to the docker container 
+
+> Install STM32Cube visual studio code extension in the environment 
+	> Prerequisite is installing remote extension host 
+
+> In VSCode, configure the STM32Cube extension in Settings > Extensions > STM32Cube Ecosystem > Set absolute path to STM32CubeMX executable as /root/cubeMX/STM32CubeMX
+
+> Select `Launch STM32CubeMX` in the extension menu 
+> Create a new project in /workspace/{/path/to/your/project}
